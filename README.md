@@ -32,79 +32,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global cloud-native cybersecurity and cloud security market is valued at approximately **$41B–$46B (2025)** and projected to exceed **$60B by 2026**, growing at a ~15%–18% CAGR. The sector exhibits a dual dynamic: it remains **moderately fragmented** with specialized innovation across CNAPP, CSPM, and runtime security niches, yet is **heavily concentrated at the top** as enterprise budgets consolidate toward multi-product platforms and mega-cap vendors.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[CrowdStrike Falcon Platform](https://www.crowdstrike.com/)**
-
-  **Unified cloud-native security platform** combining endpoint protection, cloud security (CNAPP), identity protection, and threat intelligence. Named the **most-mentioned MLOps platform in 2026 job listings** (for AI security context) and a **Customers' Choice in Gartner Peer Insights for ASPM Tools**. **Pricing**: Quote-only; enterprise contracts. **Free tier**: None. **Best for**: enterprises wanting a single platform for endpoint, cloud, and identity security with threat graph correlation—**trade-off**: premium pricing and ecosystem lock-in.
-
-
-
-- **[Palo Alto Cortex](https://www.paloaltonetworks.com/cortex)**
-
-  **AI-driven security operations platform** with XDR, XSIAM, and Xpanse (ASM). Named a **Leader in Forrester's ASM evaluation** . **Pricing**: Quote-only. **Free tier**: None. **Best for**: Palo Alto customers wanting unified SecOps with AI-driven analytics and automated response.
-
-
-
-- **[SentinelOne Singularity](https://www.sentinelone.com/)**
-
-  **AI-native security platform** with endpoint, cloud, and identity protection. Achieved **100% detection with no delays** in MITRE ATT&CK evaluations . **Pricing**: Quote-only; tiered by endpoint count. **Free tier**: None. **Best for**: organizations wanting autonomous endpoint and cloud protection with optional expert hunting augmentation.
-
-
-
-- **[Microsoft Defender XDR](https://www.microsoft.com/en-us/security/business/microsoft-defender)**
-
-  **Extended detection and response** integrated across Microsoft 365, Azure, and endpoints. **Pricing**: Included with Microsoft 365 E5 or Defender suites; quote-based. **Free tier**: Limited. **Best for**: Microsoft-centric organizations wanting native XDR without third-party agents—**trade-off**: Microsoft ecosystem dependency.
-
-
-
-- **[Trend Micro Vision One](https://www.trendmicro.com/)**
-
-  **XDR platform** with email, endpoint, server, cloud, and network detection. **Pricing**: Quote-only. **Free tier**: None. **Best for**: enterprises wanting broad coverage across email, endpoint, and cloud with a single vendor.
-
-
-
-- **[Sophos Central](https://www.sophos.com/)**
-
-  **Cloud-native security management** with endpoint, firewall, and email protection. **Pricing**: Quote-only. **Free tier**: Trial available. **Best for**: mid-market organizations wanting unified security management with a single console.
-
-
-
-- **[Fortinet FortiCloud](https://www.fortinet.com/)**
-
-  **Cloud security management** integrated with Fortinet Security Fabric. **Pricing**: Bundled with Fortinet subscriptions. **Free tier**: Limited. **Best for**: Fortinet customers wanting cloud management of FortiGate, FortiSandbox, and other fabric components.
-
-
-
-- **[Check Point Infinity](https://www.checkpoint.com/)**
-
-  **Consolidated security architecture** spanning network, cloud, endpoint, and mobile. **Pricing**: Quote-only. **Free tier**: None. **Best for**: enterprises wanting a unified security architecture from a single vendor.
-
-
-
-- **[Wiz](https://www.wiz.io/)**
-
-  **Cloud security platform** with a unified security graph correlating cloud infrastructure, workloads, identities, and code. **Pricing**: Quote-only; enterprise contracts. **Free tier**: None. **Best for**: cloud-native organizations wanting agentless discovery and risk correlation—**trade-off**: premium pricing.
-
-
-
-- **[Cisco Security Cloud](https://www.cisco.com/)**
-
-  **Unified security platform** integrating network, cloud, and endpoint security. **Pricing**: Quote-only. **Free tier**: None. **Best for**: Cisco-centric organizations wanting integrated security across their network and cloud infrastructure.
-
-
+| Platform | Company Valuation / Revenue (Desc) | Pricing (Starting Tier) | Free Tier Limits / Free Trial | Key Capabilities & Target Fit |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Defender XDR](https://www.microsoft.com/en-us/security/business/microsoft-defender)** | **~$3.85T** Market Cap ($281.7B Revenue) | **$3.00/user/month** (Defender for Endpoint P1 / Defender for Business) | **30-day free trial** with full feature access for enterprise tenants (No permanent free tier) | Unified XDR across endpoints, hybrid cloud, M365 identities; best for Microsoft-centric enterprise ecosystems. |
+| **[Cisco Security Cloud](https://www.cisco.com/)** | **~$430B** Market Cap ($56.7B Revenue) | **$3.00/user/month** (Cisco Duo MFA starting tier; Secure Endpoint starts ~$30/user/year via channel) | **Permanent free tier** for Duo up to 10 users; **30-day free trial** for Secure Endpoint & **90-day free trial** for Multicloud Defense | Unified network, cloud, and endpoint security; best for Cisco-centric infrastructures seeking fabric integration. |
+| **[Palo Alto Cortex](https://www.paloaltonetworks.com/cortex)** | **~$125B** Market Cap ($9.2B Revenue) | **$70.00/endpoint/year** (Cortex XDR Pro base tier with 30-day retention; Cloud Host Protection starts at $195/host/year) | **Guided 30-day PoC / trial** via sales or authorized partners; no instant self-service free tier | AI-driven SecOps with XDR, XSIAM, and Xpanse ASM; best for enterprise SecOps looking for automated incident resolution. |
+| **[CrowdStrike Falcon Platform](https://www.crowdstrike.com/)** | **~$110B** Market Cap ($3.95B Revenue) | **$59.99/device/year** ($7.99/device/month on Falcon Go, up to 100 devices; Falcon Pro at $99.99/device/year) | **15-day free trial** with full platform capabilities and no credit card required (No permanent free tier) | Cloud-native endpoint, CNAPP, and identity protection with Threat Graph telemetry; industry benchmark for enterprise EDR/XDR. |
+| **[Fortinet FortiCloud](https://www.fortinet.com/)** | **~$105B** Market Cap ($6.8B Revenue) | **~$90–$267/device/year** (FortiGate Cloud management license for entry models like 40F/60F; bundles available) | **Permanent free tier** (7-day rolling log retention, basic reporting, firmware updates); **30-day free trial** unlocks full 1-year log retention and config backups | Centralized cloud management for Fortinet Security Fabric; best for distributed networks utilizing FortiGate appliances. |
+| **[Wiz](https://www.wiz.io/)** | **$32B** Valuation (Acquisition by Google; $1B ARR target) | **$24,000/year** (Wiz Essential starting tier for up to 100 cloud workloads; Wiz Advanced at ~$38,000/year) | **Guided PoC / sandbox evaluation** for qualified cloud tenants (No public self-service trial or permanent free tier) | Agentless security graph correlating multi-cloud posture, vulnerabilities, CIEM, and workload risks. |
+| **[Check Point Infinity](https://www.checkpoint.com/)** | **~$20B** Market Cap ($2.73B Revenue) | **~$30–$40/user/year** (Harmony Browse; Harmony Endpoint starts at ~$40–$50/seat/year) | **30-day free trial** for Infinity Portal cloud-managed services (Harmony Endpoint and Harmony Browse) | Consolidated security architecture covering network, cloud, SASE, and endpoint from a single policy engine. |
+| **[SentinelOne Singularity](https://www.sentinelone.com/)** | **~$8.5B** Market Cap ($821.5M Revenue) | **$69.99/endpoint/year** (~$5.83/endpoint/month on Singularity Core; Singularity Control at $79.99/endpoint/year) | **30-day proof-of-concept (PoC) / trial** available through partner/sales onboarding (No permanent free tier) | AI-native autonomous endpoint and cloud protection with behavioral rollback and Purple AI hunting. |
+| **[Trend Micro Vision One](https://www.trendmicro.com/)** | **~$5.5B** Market Cap ($1.8B Revenue) | **~$26–$36/device/year** (Vision One Endpoint Security Core; AWS Marketplace pay-as-you-go hourly options) | **30-day free trial** available directly and via AWS Marketplace (No permanent free tier) | Broad multi-layer XDR spanning email, endpoint, server, and multi-cloud environments. |
+| **[Sophos Central](https://www.sophos.com/)** | **~$3.9B** Enterprise Valuation ($1B+ Revenue) | **~$28–$70/user/year** (Sophos Intercept X Advanced base endpoint tier; XDR tier from ~$45–$108/user/year) | **30-day fully functional free trial** with no credit card or contract required (No permanent free tier) | Unified management for endpoint, firewall, and MDR operations; tailored for mid-market and distributed enterprises. |
 
 ## Open-Source GitHub Projects
 
