@@ -1,48 +1,50 @@
-# Awesome-Cloud-Native-Cybersecurity-Platform
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Cloud-Native Cybersecurity Platform Banner" width="100%">
+</p>
 
-# Awesome-Cloud-Native-Cybersecurity-Platform
+# 🛡️ Awesome Cloud-Native Cybersecurity Platform
 
-**Top Cloud Native Cybersecurity Platform (Opensource) 🌟 Star if you like it! 🌟**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Native-Cybersecurity-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Native-Cybersecurity-Platform?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Native-Cybersecurity-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-Native-Cybersecurity-Platform?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Native-Cybersecurity-Platform/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Cloud-Native-Cybersecurity-Platform" alt="GitHub Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Native-Cybersecurity-Platform/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+> 🌟 **A curated list of leading Cloud-Native Cybersecurity Platforms, Enterprise SaaS, and Composable Open-Source Security Solutions.**
+>
+> 🎯 *Mastering CNAPP (Cloud-Native Application Protection Platform), XDR (Extended Detection & Response), Next-Gen SIEM, eBPF Runtime Security, CSPM (Cloud Security Posture Management), Vulnerability Scanning, and Self-Hosted SecOps.*
 
+---
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+## 📑 Table of Contents
 
-*Focused on CNAPP, XDR, SIEM, Runtime Security & Self-Hosted Security Operations*
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 Enterprise SaaS & Hosted Platforms](#-enterprise-saas--hosted-platforms)
+- [🔓 Curated Open-Source GitHub Projects](#-curated-open-source-github-projects)
+  - [🛡️ Composable Security Architecture Guide](#-composable-security-architecture-guide)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#-disclaimer)
+- [📈 Star History](#-star-history)
 
-**Last updated: October 2026**
+---
 
+## 🌐 Sector Overview & Market Dynamics
 
+The global cloud-native cybersecurity and cloud security market is valued at approximately **$41B–$46B (2025)** and projected to exceed **$60B by 2026**, registering a robust **15%–18% CAGR**. 
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Cloud-Native Cybersecurity**. These tools enable organizations to protect cloud workloads, detect runtime threats, correlate security events, and respond to incidents—from fully managed enterprise platforms with unified CNAPP/XDR capabilities to self-hosted scanners and SIEM stacks that give security teams complete control over their detection pipelines and data.
+Market structure exhibits a dual dynamic:
+- **Moderately Fragmented in Emerging Specializations**: Rapid technological shifts across containers, Kubernetes clusters, serverless architectures, and AI workloads sustain widespread innovation across specialized niches (such as runtime eBPF telemetry, cloud security posture management, and attack path analysis).
+- **Heavily Concentrated at the Enterprise Platform Level**: Large enterprises increasingly combat tool sprawl and "point-solution fatigue" by consolidating budgets around unified multi-product platforms and mega-cap vendors that bundle endpoint, cloud identity, and extended threat response.
 
+---
 
+## 🏢 Enterprise SaaS & Hosted Platforms
 
-**Examples** include CrowdStrike Falcon, Palo Alto Cortex, SentinelOne Singularity, Microsoft Defender XDR, Trend Micro Vision One, Sophos Central, Fortinet FortiCloud, Check Point Infinity, Wiz, and Cisco Security Cloud (the category leaders in commercial space).
-
-
-
-**Open-source emphasis**: This section is expanded with every relevant project for self-hosted cloud-native security, runtime detection, and open SIEM infrastructure. **Critical note**: No single open-source project replicates the full scope of CrowdStrike Falcon or Palo Alto Cortex—which bundle endpoint, cloud, identity, and XDR into one platform. The open-source landscape is **composable**: **Wazuh** provides XDR/SIEM foundations, **Falco** dominates runtime detection, **Deepfence ThreatMapper** approximates CNAPP, and **Prowler** handles CSPM. You assemble the stack based on your gaps.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The global cloud-native cybersecurity and cloud security market is valued at approximately **$41B–$46B (2025)** and projected to exceed **$60B by 2026**, growing at a ~15%–18% CAGR. The sector exhibits a dual dynamic: it remains **moderately fragmented** with specialized innovation across CNAPP, CSPM, and runtime security niches, yet is **heavily concentrated at the top** as enterprise budgets consolidate toward multi-product platforms and mega-cap vendors.
-
-## SaaS/Hosted Platforms
+Enterprise-grade commercial cybersecurity suites offering unified detection graphs, managed threat intelligence, and turnkey cloud security posture management.
 
 | Platform | Company Valuation / Revenue (Desc) | Pricing (Starting Tier) | Free Tier Limits / Free Trial | Key Capabilities & Target Fit |
 | :--- | :--- | :--- | :--- | :--- |
@@ -57,112 +59,160 @@ The global cloud-native cybersecurity and cloud security market is valued at app
 | **[Trend Micro Vision One](https://www.trendmicro.com/)** | **~$5.5B** Market Cap ($1.8B Revenue) | **~$26–$36/device/year** (Vision One Endpoint Security Core; AWS Marketplace pay-as-you-go hourly options) | **30-day free trial** available directly and via AWS Marketplace (No permanent free tier) | Broad multi-layer XDR spanning email, endpoint, server, and multi-cloud environments. |
 | **[Sophos Central](https://www.sophos.com/)** | **~$3.9B** Enterprise Valuation ($1B+ Revenue) | **~$28–$70/user/year** (Sophos Intercept X Advanced base endpoint tier; XDR tier from ~$45–$108/user/year) | **30-day fully functional free trial** with no credit card or contract required (No permanent free tier) | Unified management for endpoint, firewall, and MDR operations; tailored for mid-market and distributed enterprises. |
 
-## Open-Source GitHub Projects
-
-
-
-- **[Wazuh](https://github.com/wazuh/wazuh)**
-
-  **Open Source Security Platform: Unified XDR and SIEM** (GPLv2) — **the most complete open-source XDR/SIEM foundation**, with ~15,900 GitHub stars and active development . **Features**: **Host intrusion detection** (FIM, rootkit detection, log analysis); **vulnerability detection**; **security configuration assessment** (CIS benchmarks); **incident response** (active response, quarantine); **regulatory compliance** (PCI DSS, HIPAA, GDPR, NIST); **cloud workload protection** for AWS, Azure, GCP; **container security** for Docker and Kubernetes. **Architecture**: Wazuh agent on endpoints, Wazuh manager for analysis, Wazuh indexer (OpenSearch fork) for storage, Wazuh dashboard for visualization . **Tech stack**: C, Python, OpenSearch. **Deploy**: Self-hosted (all-in-one or distributed). **Trade-off**: **Scalability limited in single-node deployments**—cluster mode required for larger environments. UI less mature than Splunk or Elastic . **Best for**: security teams wanting a free, open-source XDR/SIEM with broad endpoint and cloud coverage—willing to operate and tune the stack.
-
-
-
-- **[Falco](https://github.com/falcosecurity/falco)**
-
-  **Cloud-native runtime security** (Apache 2.0, CNCF Graduated) — **the de facto standard for container and Kubernetes runtime threat detection**, upstream for Sysdig Secure's behavioral detections . **Features**: **eBPF-based** monitoring of system calls across hosts, containers, and Kubernetes; **YAML rule engine** with out-of-the-box rules for container escapes, privilege escalation, and suspicious process execution; **50+ integrations** for forwarding alerts to SIEM, Slack, and data lakes; **gVisor support**; plugins for cloud services (AWS CloudTrail, GitHub, Okta). **Tech stack**: C++, Go. **Deploy**: Self-hosted (DaemonSet on Kubernetes, Helm chart). **Trade-off**: **Runtime detection only**—no posture management, vulnerability scanning, or SIEM correlation. Requires rule tuning and maintenance. **Best for**: teams needing runtime threat detection for Kubernetes and containers—the foundation of the runtime layer in any open-source cloud-native security stack .
-
-
-
-- **[Deepfence ThreatMapper](https://github.com/deepfence/ThreatMapper)**
-
-  **Open Source Cloud Native Application Protection Platform (CNAPP)** (Apache 2.0, ~5,320 stars) — **the closest single open-source project to a full CNAPP**, with runtime threat mapping and attack path analysis . **Features**: **Agentless and agent-based scanning** for hosts, containers, Kubernetes, and serverless; **vulnerability scanning** for images and workloads; **runtime threat detection** via eBPF; **secrets scanning**; **compliance posture** checks; **attack path visualization**—maps how vulnerabilities chain to sensitive data. **Tech stack**: TypeScript, Go, eBPF. **Deploy**: Self-hosted (Docker, Kubernetes). **Trade-off**: **Not a complete CNAPP**—lacks deep CIEM and full code-to-runtime correlation. Heavier than single-purpose scanners. **Best for**: teams wanting CNAPP-style visibility (vulnerability + runtime + attack paths) from one open-source project—without assembling five separate tools .
-
-
-
-- **[Prowler](https://github.com/prowler-cloud/prowler)**
-
-  **Open-source multi-cloud security posture management** (Apache 2.0) — **the most widely adopted open-source CSPM**, with hundreds of checks across AWS, Azure, GCP, Kubernetes, and Microsoft 365 . **Features**: Checks mapped to **CIS, NIST, PCI-DSS, GDPR, HIPAA, SOC 2, FedRAMP**; **IaC scanning** via Checkov integration; **Prowler Lighthouse** AI assistant for natural language queries; **GitHub Action** for CI/CD integration with SARIF upload . **Tech stack**: Python. **Deploy**: Self-hosted (CLI, Docker) or Prowler Cloud. **Trade-off**: **CSPM only**—no runtime detection or workload protection. Findings are lists, not graph-correlated attack paths. **Best for**: security teams wanting production-ready open-source CSPM with broad compliance coverage and CI/CD integration.
-
-
-
-- **[Matano](https://github.com/matanolabs/matano)**
-
-  **Open-source SIEM alternative for AWS** (Apache 2.0) — **the most scalable open-source SIEM architecture**, built around a security data lake in your AWS account . **Features**: **Security data lake** on Apache Iceberg tables in S3—**petabyte-scale retention at low cost**; **detection-as-code** in Python with Git-based lifecycle; **serverless** (Lambda, S3, SQS) with zero-ops scaling; **vendor-neutral**—data queryable from Athena, Snowflake, or any Iceberg-compatible tool. **Tech stack**: Rust, Python, AWS Lambda, Apache Iceberg. **Deploy**: Self-hosted (AWS account). **Trade-off**: **AWS-specific**—not multi-cloud. Newer project with limited community validation compared to Wazuh or Elastic. **Best for**: AWS-centric security teams wanting a cost-effective SIEM with open data formats and detection-as-code—without Splunk or Elastic licensing.
-
-
-
-- **[Security Shallots](https://pypi.org/project/security-shallots/)**
-
-  **Lightweight, self-hosted SIEM for small environments** (PyPI) — **the easiest open-source SIEM to deploy**, running on anything from a Raspberry Pi to a full server with just Python and SQLite . **Features**: **Ingests** Suricata, Syslog, pfSense, Wazuh, CrowdSec, Pi-hole, Argus agents, and web logs; **normalizes and deduplicates** alerts; **correlates patterns** (port scans, brute force, lateral movement); **groups into incidents** with response runbooks; **AI triage** via OpenAI/Anthropic API (optional); **hardware auto-detection**—adjusts profile based on available RAM/CPU. **Tech stack**: Python, SQLite. **Deploy**: `pip install` or one-line installer; Docker optional. **Trade-off**: **Small-scale focus**—not enterprise SIEM. SQLite storage limits retention at high volume. **Best for**: homelabs, small businesses, and branch offices wanting a functional SIEM without Elastic or Splunk infrastructure.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Elastic Security** — SIEM and XDR on Elasticsearch (Elastic License, not OSI open source). 800+ ATT&CK rules, EQL for sequence detection, ML anomaly jobs (paid tiers) . **Note**: License changed from Apache 2.0; cloud costs unpredictable; complex to operate . **Best for**: teams already running ELK wanting security analytics with strong detection rules.
-
-- **UTMStack** — Open-source SIEM and XDR (CISA-listed). Real-time correlation and threat intelligence with compliance reporting . **Note**: Smaller community than Wazuh; less documentation. **Best for**: organizations wanting an integrated SIEM/XDR with compliance focus.
-
-- **Trivy** — Comprehensive scanner (Apache 2.0). Vulnerability, IaC, secrets, and SBOM scanning; CI/CD native . **Note**: Scanner only—pair with runtime and SIEM for full stack. **Best for**: shift-left security in CI/CD pipelines.
-
-- **Kyverno** — Kubernetes admission controller (Apache 2.0). Policy enforcement via CRDs; signed-image verification via Sigstore . **Note**: Admission control only—not runtime detection or posture. **Best for**: enforcing security policies at the Kubernetes admission gate.
-
-
-
-**Frameworks for building custom systems**: Combine **Wazuh** as the XDR/SIEM foundation with **Falco** for runtime detection, **Deepfence ThreatMapper** for CNAPP-style attack path analysis, **Prowler** for CSPM, and **Trivy** for shift-left scanning—creating a composable open-source cloud-native security stack. **None of these match CrowdStrike Falcon's unified threat graph or Palo Alto Cortex's AI-driven SecOps**; those require commercial platforms or significant integration engineering.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, license (for open-source), and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Cloud-native security platforms handling credentials and security telemetry must comply with data protection regulations (GDPR, CCPA, etc.) and implement appropriate access controls for security data.
-
-- **The "unified platform" vs. "composable stack" distinction is critical.** **CrowdStrike, Palo Alto, SentinelOne, Microsoft Defender XDR, Trend Micro, Sophos, Fortinet, Check Point, Wiz, and Cisco** are **unified commercial platforms**—they bundle endpoint, cloud, identity, and XDR capabilities into one console. **Wazuh** provides **XDR/SIEM foundations**—host and cloud telemetry with detection and response, but not endpoint protection . **Falco** is **runtime detection**—Kubernetes and container threats, not endpoint or posture. **Deepfence ThreatMapper** approximates **CNAPP**—vulnerability, runtime, and attack paths . **Prowler** is **CSPM**—posture only. **No single open-source project replaces a commercial platform.** Compose the stack based on your gaps and operational capacity.
-
-- **Wazuh is the strongest open-source foundation for XDR/SIEM**—broad endpoint and cloud coverage, compliance mapping, and active community (~15,900 stars) . **The trade-off**: single-node scalability is limited; UI is less polished than Splunk; requires tuning to avoid alert fatigue.
-
-- **Falco is the runtime detection standard**—CNCF Graduated, eBPF-based, with 50+ integrations and upstream status for Sysdig Secure . **Pair it with Wazuh for host telemetry and Prowler for posture** to approximate a full CNAPP.
-
-- **Deepfence ThreatMapper is the closest single-project CNAPP approximation**—vulnerability scanning, runtime eBPF detection, secrets scanning, and attack path visualization . **The trade-off**: CIEM depth is limited; heavier than single-purpose tools.
-
-- **Matano is the most architecturally interesting open-source SIEM**—petabyte-scale data lake on Iceberg, detection-as-code, and vendor-neutral data ownership . **The trade-off**: AWS-specific; newer with limited validation. **For teams frustrated by Splunk/Elastic costs and wanting open data formats, it is the most promising path.**
-
-- **Security Shallots is the pragmatic choice for small environments**—one-line install, SQLite storage, works on a Raspberry Pi . **The trade-off**: not enterprise-scale; SQLite limits retention.
-
-- **Pricing opacity is universal across commercial vendors.** CrowdStrike, Palo Alto, SentinelOne, Microsoft, Trend Micro, Sophos, Fortinet, Check Point, Wiz, and Cisco all require sales contact. Wazuh, Falco, ThreatMapper, Prowler, and Matano are free open source. **Validate with direct vendor conversations against your endpoint count and cloud footprint.**
-
-- Self-hosted open-source solutions require proper infrastructure (servers for Wazuh/Matano, Kubernetes for Falco/ThreatMapper), security hardening for detection credentials, and ongoing maintenance. **Security platforms have privileged access to your environment**—ensure your deployment meets your organization's security standards before connecting production systems.
-
-
+---
+
+## 🔓 Curated Open-Source GitHub Projects
+
+Curated list of production-grade open-source tools for building self-hosted, sovereign, and composable cloud-native security stacks. Sorted by GitHub community star count in descending order.
+
+### 1. **[Trivy](https://github.com/aquasecurity/trivy)** [![GitHub stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers)
+* **Description**: Comprehensive, versatile vulnerability, misconfiguration, secret, and SBOM scanner for containers, Kubernetes, code repositories, and multi-cloud clouds.
+* **License**: Apache-2.0
+* **Key Features**: Container image scanning, IaC misconfigurations (Terraform, CloudFormation, Dockerfile), software bill of materials (SBOM) generation (CycloneDX, SPDX), Git secrets detection, and fast CI/CD integration with GitHub Actions.
+* **Best For**: Shift-left vulnerability management and CI/CD supply chain hardening.
+
+### 2. **[Cilium](https://github.com/cilium/cilium)** [![GitHub stars](https://img.shields.io/github/stars/cilium/cilium?style=social&color=white)](https://github.com/cilium/cilium/stargazers)
+* **Description**: eBPF-powered cloud-native networking, transparent encryption, and deep security observability for Kubernetes and microservices.
+* **License**: Apache-2.0 (CNCF Graduated)
+* **Key Features**: Identity-aware Layer 3–Layer 7 network security policies, wireguard/IPsec node-to-node transparent encryption, Hubble network flow visualization, and real-time DNS/API payload inspection without sidecars.
+* **Best For**: Microservice network segmentation, zero-trust cloud network policy enforcement, and live cluster traffic inspection.
+
+### 3. **[Wazuh](https://github.com/wazuh/wazuh)** [![GitHub stars](https://img.shields.io/github/stars/wazuh/wazuh?style=social&color=white)](https://github.com/wazuh/wazuh/stargazers)
+* **Description**: The leading unified open-source XDR and SIEM platform for endpoint protection, server telemetry, and multi-cloud workload threat detection.
+* **License**: GPLv2
+* **Key Features**: Host-based intrusion detection (FIM, rootkit discovery, log analysis), vulnerability detection, CIS benchmark configuration compliance (PCI-DSS, HIPAA, GDPR, NIST), active response automation, and cloud workload monitoring across AWS, Azure, and GCP.
+* **Best For**: Building a robust, self-hosted XDR/SIEM nerve center with host, server, and multi-cloud telemetry.
+
+### 4. **[CrowdSec](https://github.com/crowdsecurity/crowdsec)** [![GitHub stars](https://img.shields.io/github/stars/crowdsecurity/crowdsec?style=social&color=white)](https://github.com/crowdsecurity/crowdsec/stargazers)
+* **Description**: Collaborative open-source intrusion prevention system (IPS), WAF, and bot mitigation engine with a crowdsourced threat intelligence blocklist.
+* **License**: MIT
+* **Key Features**: Lightweight log-parsing agent analyzing behavior across Linux, Windows, Docker, Traefik, and NGINX; automatic threat remediation through bouncers (firewall, Captcha, CDN); peer-shared global reputation blocklist.
+* **Best For**: Edge protection, web application defense, and blocking brute-force, credential stuffing, and scanner bots.
+
+### 5. **[Prowler](https://github.com/prowler-cloud/prowler)** [![GitHub stars](https://img.shields.io/github/stars/prowler-cloud/prowler?style=social&color=white)](https://github.com/prowler-cloud/prowler/stargazers)
+* **Description**: The industry-standard open-source multi-cloud security posture management (CSPM) and compliance auditing framework.
+* **License**: Apache-2.0
+* **Key Features**: Over 300+ automated configuration audits across AWS, Microsoft Azure, Google Cloud Platform (GCP), and Kubernetes; mapping directly to CIS, NIST, PCI-DSS, SOC 2, and ISO 27001; SARIF generation and CI/CD posture gating.
+* **Best For**: Continuous cloud security posture assessment, regulatory compliance auditing, and multi-cloud misconfiguration detection.
+
+### 6. **[Falco](https://github.com/falcosecurity/falco)** [![GitHub stars](https://img.shields.io/github/stars/falcosecurity/falco?style=social&color=white)](https://github.com/falcosecurity/falco/stargazers)
+* **Description**: De facto standard cloud-native runtime threat detection engine for containers, hosts, and Kubernetes powered by eBPF.
+* **License**: Apache-2.0 (CNCF Graduated)
+* **Key Features**: Kernel-level syscall interception via eBPF; rich YAML rule language detecting container escapes, privilege escalation, shell spawns in containers, and sensitive directory access; 50+ plugins (AWS CloudTrail, Okta, GitHub).
+* **Best For**: Real-time Kubernetes container runtime security monitoring and behavioral anomaly alerting.
+
+### 7. **[Kyverno](https://github.com/kyverno/kyverno)** [![GitHub stars](https://img.shields.io/github/stars/kyverno/kyverno?style=social&color=white)](https://github.com/kyverno/kyverno/stargazers)
+* **Description**: Kubernetes-native policy-as-code management engine designed specifically for declarative admission control and validation.
+* **License**: Apache-2.0 (CNCF Incubating)
+* **Key Features**: Validate, mutate, generate, and verify Kubernetes resources using idiomatic Kubernetes YAML (no complex rego scripting required); cryptographic container image signature validation with Sigstore Cosign.
+* **Best For**: Enforcing security baseline policies, rootless container execution, and supply chain verification at the Kubernetes API admission barrier.
+
+### 8. **[Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)** [![GitHub stars](https://img.shields.io/github/stars/cloud-custodian/cloud-custodian?style=social&color=white)](https://github.com/cloud-custodian/cloud-custodian/stargazers)
+* **Description**: Lightweight YAML DSL rules engine for unifying multi-cloud real-time compliance, security remediation, and cost optimization.
+* **License**: Apache-2.0 (CNCF Incubating)
+* **Key Features**: Real-time event-driven policies using AWS CloudWatch, Azure Event Grid, and GCP Cloud Pub/Sub; automated enforcement actions (quarantine unencrypted buckets, kill unauthorized compute instances, tag uncompliant resources).
+* **Best For**: Automated real-time multi-cloud guardrail enforcement and automated incident mitigation.
+
+### 9. **[Deepfence ThreatMapper](https://github.com/deepfence/ThreatMapper)** [![GitHub stars](https://img.shields.io/github/stars/deepfence/ThreatMapper?style=social&color=white)](https://github.com/deepfence/ThreatMapper/stargazers)
+* **Description**: Open-source Cloud-Native Application Protection Platform (CNAPP) providing context-aware attack path analysis and vulnerability prioritization.
+* **License**: Apache-2.0
+* **Key Features**: Topology mapping across hosts, Kubernetes clusters, and serverless tasks; correlates runtime attack paths from public internet entry points to crown-jewel internal data assets; automated vulnerability and secret discovery.
+* **Best For**: Visualizing cloud security risk topology and deploying an open-source approximation of commercial CNAPP platforms.
+
+### 10. **[Tetragon](https://github.com/cilium/tetragon)** [![GitHub stars](https://img.shields.io/github/stars/cilium/tetragon?style=social&color=white)](https://github.com/cilium/tetragon/stargazers)
+* **Description**: Deep eBPF-based security observability and kernel-level runtime enforcement engine with synchronous in-kernel blocking.
+* **License**: Apache-2.0
+* **Key Features**: Tracks process execution, namespace manipulation, and network sockets; provides real-time synchronous prevention inside the Linux kernel (SIGKILL) without user-space latency.
+* **Best For**: High-security runtime containment, detecting unauthorized file access, and kernel-level enforcement against container break-outs.
+
+### 11. **[Matano](https://github.com/matanolabs/matano)** [![GitHub stars](https://img.shields.io/github/stars/matanolabs/matano?style=social&color=white)](https://github.com/matanolabs/matano/stargazers)
+* **Description**: Open-source petabyte-scale security data lake and serverless SIEM alternative running directly within your AWS environment.
+* **License**: Apache-2.0
+* **Key Features**: Apache Iceberg columnar storage in Amazon S3; zero-ops serverless data ingestion (Lambda, SQS); detection-as-code written in Python; vendor-neutral SQL analytics accessible via Snowflake, Trino, and Athena.
+* **Best For**: Security engineering teams frustrated by costly enterprise SIEM licenses seeking modern data lake retention and Python detection rules.
+
+### 12. **[UTMStack](https://github.com/utmstack/UTMStack)** [![GitHub stars](https://img.shields.io/github/stars/utmstack/UTMStack?style=social&color=white)](https://github.com/utmstack/UTMStack/stargazers)
+* **Description**: All-in-one open-source Next-Gen SIEM and SOAR platform delivering real-time correlation and compliance reporting.
+* **License**: AGPL-3.0
+* **Key Features**: Automated correlation rules, incident lifecycle tracking, integrated vulnerability scanning, and pre-built compliance dashboards for ISO 27001, SOC 2, and GDPR.
+* **Best For**: Small-to-medium security teams wanting an integrated turnkey SIEM/SOAR web interface.
 
 ---
 
+### 🛡️ Composable Security Architecture Guide
 
+How to assemble these open-source tools into an enterprise-grade sovereign security stack:
 
-**Made for security engineers, SOC teams, and organizations building transparent cloud-native cybersecurity solutions.**
+```
++-----------------------------------------------------------------------------------+
+|                           Shift-Left & CI/CD Security                             |
+|         Trivy (Vulnerabilities, Secrets, SBOM)  +  Kyverno (Policy Gate)          |
++-----------------------------------------------------------------------------------+
+                                         │
+                                         ▼
++-----------------------------------------------------------------------------------+
+|                        Multi-Cloud Posture & Governance                           |
+|       Prowler (Multi-cloud CSPM Audits)  +  Cloud Custodian (Automated Actions)   |
++-----------------------------------------------------------------------------------+
+                                         │
+                                         ▼
++-----------------------------------------------------------------------------------+
+|                        Kubernetes & Workload Runtime                              |
+|       Falco (Syscall Runtime Detections)  +  Tetragon (eBPF Synchronous Block)     |
+|                   Cilium (eBPF Network Zero-Trust & L7 Firewall)                  |
++-----------------------------------------------------------------------------------+
+                                         │
+                                         ▼
++-----------------------------------------------------------------------------------+
+|                      CNAPP Topology & Attack Path Mapping                         |
+|                    Deepfence ThreatMapper (Attack Graph Prioritization)           |
++-----------------------------------------------------------------------------------+
+                                         │
+                                         ▼
++-----------------------------------------------------------------------------------+
+|                        Unified SIEM, XDR & Data Lake                              |
+|   Wazuh (Host Telemetry & Active Response)  +  Matano (AWS S3 Iceberg Data Lake)  |
+|                         CrowdSec (Edge Defense & Global IP CTI)                   |
++-----------------------------------------------------------------------------------+
+```
 
-Let's make Cloud-Native Cybersecurity Platforms more open, data-driven, and threat-aware.
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Help keep this curated landscape updated, accurate, and community-driven.
+
+1. **Fork** the repository on GitHub.
+2. **Create a branch** for your feature or update:
+   ```bash
+   git checkout -b feature/add-new-security-platform
+   ```
+3. **Add or update** entries in `README.md` following the established table or badge structure.
+4. **Ensure high quality**: Include verified pricing starting tiers, trial boundaries, and star badge metrics.
+5. **Submit a Pull Request** with a descriptive summary of your changes.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for exploring and bookmarking this project! If this curated guide helps your engineering, DevOps, or SecOps workflows, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it across GitHub.
+- 🍴 **Fork and share** the repo with your security teammates and community.
+- ☕ **Sponsor the Maintainer**: Buy a coffee or support ongoing open-source research via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Your support enables continuous updates, community contributions, and deep technical evaluation of the cloud security ecosystem!
+
+---
+
+## ⚠️ Disclaimer
+
+- This curated collection is compiled for informational and educational purposes. Inclusion does not constitute a formal commercial endorsement.
+- All trademarks, service marks, logos, and company names cited are the property of their respective owners.
+- Cloud-native security platforms handle sensitive environment credentials, configuration logs, and telemetry. Ensure proper data protection (GDPR, CCPA, SOC 2) and rigorous least-privilege access controls are established prior to connecting production environments.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Cloud-Native-Cybersecurity-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Cloud-Native-Cybersecurity-Platform&type=date&legend=top-left)
