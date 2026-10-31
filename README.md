@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Native-Cybersecurity-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Native-Cybersecurity-Platform?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Native-Cybersecurity-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Native-Cybersecurity-Platform?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cloud-Native-Cybersecurity-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-Native-Cybersecurity-Platform?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cloud-Native-Cybersecurity-Platform/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Cloud-Native-Cybersecurity-Platform" alt="GitHub Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cloud-Native-Cybersecurity-Platform/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" /></a>
@@ -63,75 +63,75 @@ Enterprise-grade commercial cybersecurity suites offering unified detection grap
 
 ## 🔓 Curated Open-Source GitHub Projects
 
-Curated list of production-grade open-source tools for building self-hosted, sovereign, and composable cloud-native security stacks. Sorted by GitHub community star count in descending order.
+Curated list of production-grade open-source tools for building self-hosted, sovereign, and composable cloud-native security stacks. Sorted by GitHub community Stars_Count in descending order.
 
-### 1. **[Trivy](https://github.com/aquasecurity/trivy)** [![GitHub stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers)
+### 1. **[Trivy](https://github.com/aquasecurity/trivy)** [![GitHub_Stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers)
 * **Description**: Comprehensive, versatile vulnerability, misconfiguration, secret, and SBOM scanner for containers, Kubernetes, code repositories, and multi-cloud clouds.
 * **License**: Apache-2.0
 * **Key Features**: Container image scanning, IaC misconfigurations (Terraform, CloudFormation, Dockerfile), software bill of materials (SBOM) generation (CycloneDX, SPDX), Git secrets detection, and fast CI/CD integration with GitHub Actions.
 * **Best For**: Shift-left vulnerability management and CI/CD supply chain hardening.
 
-### 2. **[Cilium](https://github.com/cilium/cilium)** [![GitHub stars](https://img.shields.io/github/stars/cilium/cilium?style=social&color=white)](https://github.com/cilium/cilium/stargazers)
+### 2. **[Cilium](https://github.com/cilium/cilium)** [![GitHub_Stars](https://img.shields.io/github/stars/cilium/cilium?style=social&color=white)](https://github.com/cilium/cilium/stargazers)
 * **Description**: eBPF-powered cloud-native networking, transparent encryption, and deep security observability for Kubernetes and microservices.
 * **License**: Apache-2.0 (CNCF Graduated)
 * **Key Features**: Identity-aware Layer 3–Layer 7 network security policies, wireguard/IPsec node-to-node transparent encryption, Hubble network flow visualization, and real-time DNS/API payload inspection without sidecars.
 * **Best For**: Microservice network segmentation, zero-trust cloud network policy enforcement, and live cluster traffic inspection.
 
-### 3. **[Wazuh](https://github.com/wazuh/wazuh)** [![GitHub stars](https://img.shields.io/github/stars/wazuh/wazuh?style=social&color=white)](https://github.com/wazuh/wazuh/stargazers)
+### 3. **[Wazuh](https://github.com/wazuh/wazuh)** [![GitHub_Stars](https://img.shields.io/github/stars/wazuh/wazuh?style=social&color=white)](https://github.com/wazuh/wazuh/stargazers)
 * **Description**: The leading unified open-source XDR and SIEM platform for endpoint protection, server telemetry, and multi-cloud workload threat detection.
 * **License**: GPLv2
 * **Key Features**: Host-based intrusion detection (FIM, rootkit discovery, log analysis), vulnerability detection, CIS benchmark configuration compliance (PCI-DSS, HIPAA, GDPR, NIST), active response automation, and cloud workload monitoring across AWS, Azure, and GCP.
 * **Best For**: Building a robust, self-hosted XDR/SIEM nerve center with host, server, and multi-cloud telemetry.
 
-### 4. **[CrowdSec](https://github.com/crowdsecurity/crowdsec)** [![GitHub stars](https://img.shields.io/github/stars/crowdsecurity/crowdsec?style=social&color=white)](https://github.com/crowdsecurity/crowdsec/stargazers)
+### 4. **[CrowdSec](https://github.com/crowdsecurity/crowdsec)** [![GitHub_Stars](https://img.shields.io/github/stars/crowdsecurity/crowdsec?style=social&color=white)](https://github.com/crowdsecurity/crowdsec/stargazers)
 * **Description**: Collaborative open-source intrusion prevention system (IPS), WAF, and bot mitigation engine with a crowdsourced threat intelligence blocklist.
 * **License**: MIT
 * **Key Features**: Lightweight log-parsing agent analyzing behavior across Linux, Windows, Docker, Traefik, and NGINX; automatic threat remediation through bouncers (firewall, Captcha, CDN); peer-shared global reputation blocklist.
 * **Best For**: Edge protection, web application defense, and blocking brute-force, credential stuffing, and scanner bots.
 
-### 5. **[Prowler](https://github.com/prowler-cloud/prowler)** [![GitHub stars](https://img.shields.io/github/stars/prowler-cloud/prowler?style=social&color=white)](https://github.com/prowler-cloud/prowler/stargazers)
+### 5. **[Prowler](https://github.com/prowler-cloud/prowler)** [![GitHub_Stars](https://img.shields.io/github/stars/prowler-cloud/prowler?style=social&color=white)](https://github.com/prowler-cloud/prowler/stargazers)
 * **Description**: The industry-standard open-source multi-cloud security posture management (CSPM) and compliance auditing framework.
 * **License**: Apache-2.0
 * **Key Features**: Over 300+ automated configuration audits across AWS, Microsoft Azure, Google Cloud Platform (GCP), and Kubernetes; mapping directly to CIS, NIST, PCI-DSS, SOC 2, and ISO 27001; SARIF generation and CI/CD posture gating.
 * **Best For**: Continuous cloud security posture assessment, regulatory compliance auditing, and multi-cloud misconfiguration detection.
 
-### 6. **[Falco](https://github.com/falcosecurity/falco)** [![GitHub stars](https://img.shields.io/github/stars/falcosecurity/falco?style=social&color=white)](https://github.com/falcosecurity/falco/stargazers)
+### 6. **[Falco](https://github.com/falcosecurity/falco)** [![GitHub_Stars](https://img.shields.io/github/stars/falcosecurity/falco?style=social&color=white)](https://github.com/falcosecurity/falco/stargazers)
 * **Description**: De facto standard cloud-native runtime threat detection engine for containers, hosts, and Kubernetes powered by eBPF.
 * **License**: Apache-2.0 (CNCF Graduated)
 * **Key Features**: Kernel-level syscall interception via eBPF; rich YAML rule language detecting container escapes, privilege escalation, shell spawns in containers, and sensitive directory access; 50+ plugins (AWS CloudTrail, Okta, GitHub).
 * **Best For**: Real-time Kubernetes container runtime security monitoring and behavioral anomaly alerting.
 
-### 7. **[Kyverno](https://github.com/kyverno/kyverno)** [![GitHub stars](https://img.shields.io/github/stars/kyverno/kyverno?style=social&color=white)](https://github.com/kyverno/kyverno/stargazers)
+### 7. **[Kyverno](https://github.com/kyverno/kyverno)** [![GitHub_Stars](https://img.shields.io/github/stars/kyverno/kyverno?style=social&color=white)](https://github.com/kyverno/kyverno/stargazers)
 * **Description**: Kubernetes-native policy-as-code management engine designed specifically for declarative admission control and validation.
 * **License**: Apache-2.0 (CNCF Incubating)
 * **Key Features**: Validate, mutate, generate, and verify Kubernetes resources using idiomatic Kubernetes YAML (no complex rego scripting required); cryptographic container image signature validation with Sigstore Cosign.
 * **Best For**: Enforcing security baseline policies, rootless container execution, and supply chain verification at the Kubernetes API admission barrier.
 
-### 8. **[Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)** [![GitHub stars](https://img.shields.io/github/stars/cloud-custodian/cloud-custodian?style=social&color=white)](https://github.com/cloud-custodian/cloud-custodian/stargazers)
+### 8. **[Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)** [![GitHub_Stars](https://img.shields.io/github/stars/cloud-custodian/cloud-custodian?style=social&color=white)](https://github.com/cloud-custodian/cloud-custodian/stargazers)
 * **Description**: Lightweight YAML DSL rules engine for unifying multi-cloud real-time compliance, security remediation, and cost optimization.
 * **License**: Apache-2.0 (CNCF Incubating)
 * **Key Features**: Real-time event-driven policies using AWS CloudWatch, Azure Event Grid, and GCP Cloud Pub/Sub; automated enforcement actions (quarantine unencrypted buckets, kill unauthorized compute instances, tag uncompliant resources).
 * **Best For**: Automated real-time multi-cloud guardrail enforcement and automated incident mitigation.
 
-### 9. **[Deepfence ThreatMapper](https://github.com/deepfence/ThreatMapper)** [![GitHub stars](https://img.shields.io/github/stars/deepfence/ThreatMapper?style=social&color=white)](https://github.com/deepfence/ThreatMapper/stargazers)
+### 9. **[Deepfence ThreatMapper](https://github.com/deepfence/ThreatMapper)** [![GitHub_Stars](https://img.shields.io/github/stars/deepfence/ThreatMapper?style=social&color=white)](https://github.com/deepfence/ThreatMapper/stargazers)
 * **Description**: Open-source Cloud-Native Application Protection Platform (CNAPP) providing context-aware attack path analysis and vulnerability prioritization.
 * **License**: Apache-2.0
 * **Key Features**: Topology mapping across hosts, Kubernetes clusters, and serverless tasks; correlates runtime attack paths from public internet entry points to crown-jewel internal data assets; automated vulnerability and secret discovery.
 * **Best For**: Visualizing cloud security risk topology and deploying an open-source approximation of commercial CNAPP platforms.
 
-### 10. **[Tetragon](https://github.com/cilium/tetragon)** [![GitHub stars](https://img.shields.io/github/stars/cilium/tetragon?style=social&color=white)](https://github.com/cilium/tetragon/stargazers)
+### 10. **[Tetragon](https://github.com/cilium/tetragon)** [![GitHub_Stars](https://img.shields.io/github/stars/cilium/tetragon?style=social&color=white)](https://github.com/cilium/tetragon/stargazers)
 * **Description**: Deep eBPF-based security observability and kernel-level runtime enforcement engine with synchronous in-kernel blocking.
 * **License**: Apache-2.0
 * **Key Features**: Tracks process execution, namespace manipulation, and network sockets; provides real-time synchronous prevention inside the Linux kernel (SIGKILL) without user-space latency.
 * **Best For**: High-security runtime containment, detecting unauthorized file access, and kernel-level enforcement against container break-outs.
 
-### 11. **[Matano](https://github.com/matanolabs/matano)** [![GitHub stars](https://img.shields.io/github/stars/matanolabs/matano?style=social&color=white)](https://github.com/matanolabs/matano/stargazers)
+### 11. **[Matano](https://github.com/matanolabs/matano)** [![GitHub_Stars](https://img.shields.io/github/stars/matanolabs/matano?style=social&color=white)](https://github.com/matanolabs/matano/stargazers)
 * **Description**: Open-source petabyte-scale security data lake and serverless SIEM alternative running directly within your AWS environment.
 * **License**: Apache-2.0
 * **Key Features**: Apache Iceberg columnar storage in Amazon S3; zero-ops serverless data ingestion (Lambda, SQS); detection-as-code written in Python; vendor-neutral SQL analytics accessible via Snowflake, Trino, and Athena.
 * **Best For**: Security engineering teams frustrated by costly enterprise SIEM licenses seeking modern data lake retention and Python detection rules.
 
-### 12. **[UTMStack](https://github.com/utmstack/UTMStack)** [![GitHub stars](https://img.shields.io/github/stars/utmstack/UTMStack?style=social&color=white)](https://github.com/utmstack/UTMStack/stargazers)
+### 12. **[UTMStack](https://github.com/utmstack/UTMStack)** [![GitHub_Stars](https://img.shields.io/github/stars/utmstack/UTMStack?style=social&color=white)](https://github.com/utmstack/UTMStack/stargazers)
 * **Description**: All-in-one open-source Next-Gen SIEM and SOAR platform delivering real-time correlation and compliance reporting.
 * **License**: AGPL-3.0
 * **Key Features**: Automated correlation rules, incident lifecycle tracking, integrated vulnerability scanning, and pre-built compliance dashboards for ISO 27001, SOC 2, and GDPR.
@@ -188,7 +188,7 @@ Contributions are warmly welcomed! Help keep this curated landscape updated, acc
    git checkout -b feature/add-new-security-platform
    ```
 3. **Add or update** entries in `README.md` following the established table or badge structure.
-4. **Ensure high quality**: Include verified pricing starting tiers, trial boundaries, and star badge metrics.
+4. **Ensure high quality**: Include verified pricing starting tiers, trial boundaries, and Stars_Badge metrics.
 5. **Submit a Pull Request** with a descriptive summary of your changes.
 
 ---
